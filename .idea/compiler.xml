@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
       </profile>
-      <profile name="Annotation profile for restaurantlisting" enabled="true">
+      <profile name="Annotation profile for user-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -20,6 +20,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
         </processorPath>
         <module name="restaurantlisting" />
+        <module name="user-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -27,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka" options="-parameters" />
       <module name="restaurantlisting" options="-parameters" />
+      <module name="user-service" options="-parameters" />
     </option>
   </component>
 </project>
