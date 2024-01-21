@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/restaurants")
 @Log4j2
+@CrossOrigin
 public class RestaurantController {
 
     @Autowired

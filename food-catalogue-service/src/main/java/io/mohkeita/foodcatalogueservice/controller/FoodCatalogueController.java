@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/foodCatalogues")
 @Log4j2
+@CrossOrigin
 public class FoodCatalogueController {
 
     @Autowired

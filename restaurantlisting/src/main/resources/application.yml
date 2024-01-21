@@ -1,18 +1,13 @@
 server:
   port: 9091
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-
 spring:
+  profiles:
+    active: dev
+
   application:
     name: RESTAURANT-SERVICE
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:3306/restaurantdb
-    password: password
-    username: root
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
