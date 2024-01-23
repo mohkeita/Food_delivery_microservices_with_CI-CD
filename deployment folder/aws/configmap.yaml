@@ -6,7 +6,7 @@ data:
   restaurantdb_url: mysql-db-instance.cl4wekm08mox.us-east-1.rds.amazonaws.com:3306/restaurantdb
   foodcataloguedb_url: mysql-db-instance.cl4wekm08mox.us-east-1.rds.amazonaws.com:3306/foodcataloguedb
   userdb_url: mysql-db-instance.cl4wekm08mox.us-east-1.rds.amazonaws.com:3306/userdb
-  orderdb_url: mongodb+srv://admin:XaGTQthtY4noJUlo@atlas-cluster.zuzgohr.mongodb.net/
+  orderdb_url: mongodb+srv://admin:XaGTQthtY4noJUlio@atlas-cluster.zuzgohr.mongodb.net/
   eureka_service_address: http://eureka-0.eureka-service:8761/eureka
 
 
