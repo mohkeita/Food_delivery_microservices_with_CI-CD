@@ -5,9 +5,9 @@ eureka:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/restaurantdb
-    password: password
-    username: root
+    url: mysql-db-instance.cl4wekm08mox.us-east-1.rds.amazonaws.com:3306/restaurantdb
+    password: password13
+    username: admin
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
